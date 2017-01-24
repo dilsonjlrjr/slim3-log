@@ -1,0 +1,23 @@
+{
+    "name": "dilsonjlrjr/slim3-log",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dilson Jose",
+            "email": "dilsonjlrjr@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4": {
+            "Slim3\\Log\\" : "src",
+            "Test\\" : "test"
+        }
+    },
+    "require": {
+        "slim/slim": "^3.7",
+        "monolog/monolog": "^1.22",
+        "dilsonjlrjr/slim3-annotation": "^1.0",
+        "moloquent/moloquent": "dev-master"
+    }
+}
