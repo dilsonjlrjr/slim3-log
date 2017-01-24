@@ -10,14 +10,11 @@
     ],
     "autoload" : {
         "psr-4": {
-            "Slim3\\Log\\" : "src",
-            "Test\\" : "test"
+            "Slim3\\Log\\" : "src"
         }
     },
     "require": {
         "slim/slim": "^3.7",
-        "monolog/monolog": "^1.22",
-        "dilsonjlrjr/slim3-annotation": "^1.0",
-        "moloquent/moloquent": "dev-master"
+        "monolog/monolog": "^1.22"
     }
 }
